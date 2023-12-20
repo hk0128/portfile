@@ -8,7 +8,7 @@ import Work from './pages/Work'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Top />} />
         <Route path="/skill" element={<Skill />} />
