@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hk0128.github.io/portfolio",
+  "homepage": "https://hk0128.github.io/portfile",
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
