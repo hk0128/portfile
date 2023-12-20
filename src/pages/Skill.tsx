@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './Skill.css'
 import Header from '../component/Header'
 import Footer from '../component/Footer'

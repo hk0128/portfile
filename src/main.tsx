@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './index.css'
 import Top from './pages/Top'
 import Skill from './pages/Skill'
-import Profile from './pages/Profile'
 import Work from './pages/Work'
 
 
