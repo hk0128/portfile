@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://hk0128.github.io/portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject"
+    "deploy": "rm -rf docs && npm run build && mv build docs"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
