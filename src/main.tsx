@@ -6,7 +6,6 @@ import Top from './pages/Top'
 import Skill from './pages/Skill'
 import Work from './pages/Work'
 
-
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
