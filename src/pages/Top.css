@@ -1,0 +1,36 @@
+
+#portfile-photo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background-color: #b97e7e;
+    margin: auto;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+#about h1 {
+    color: #f1f1f1;
+    text-decoration: underline;
+    font-size: 65px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+#about p {
+    color: #f1f1f1;
+    display: block;
+    font-size: 18px;
+    line-height: 2;
+    padding-bottom: 15px;
+}
+
+.icon {
+    width: 50px;
+    padding-bottom: 10vh;
+}
+
+#icons {
+    width: 350px;
+    margin: auto;
+}

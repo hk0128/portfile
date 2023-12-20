@@ -1,0 +1,35 @@
+
+#work {
+  width: 500px;
+  padding-bottom: 8vh;
+  margin: auto;
+}
+
+.content {
+    background-color: rgba(241,241,241,0.8);
+    border-radius: 10px;
+}
+
+.content:hover {
+    background-color: rgba(241,241,241,1);
+    transition: .5s;
+}
+
+.content p {
+    padding: 30px 0;
+    font-weight: bold;
+    color: #131313;
+}
+
+.line {
+    width: 2px;
+    height: 30px;
+    background-color: rgba(241,241,241,0.8);
+    margin: auto;
+}
+
+@media (max-width: 500px) {
+    #work {
+        width: 330px;
+    }
+}

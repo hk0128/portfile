@@ -1,0 +1,36 @@
+
+.labelStyle {
+    padding: 3px 8px;
+    border-radius: 3px;
+    display: inline-block;
+    color: #3a3a3a;
+    margin: 5px;
+}
+
+.Java {
+    background-color: rgba(0, 99, 164, 0.3);
+}
+.PostgreSQL {
+    background-color: rgba(54, 162, 235, 0.3);
+}
+.JavaScript {
+    background-color: rgba(255, 206, 86, 0.3);
+}
+.HTML5 {
+    background-color: rgba(232, 66, 0, 0.3);
+}
+.CSS3 {
+    background-color: rgba(86, 255, 235, 0.3);
+}
+.ruby {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+.python {
+    background-color: rgba(255, 230, 0, 0.3);
+}
+.git {
+    background-color: rgba(255, 98, 0, 0.3);
+}
+.docker {
+    background-color: rgba(29,99,237, 0.3);
+}

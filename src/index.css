@@ -1,0 +1,33 @@
+
+html {scroll-behavior: smooth;}
+body {margin: 0; font-family: "Oswald", Calibri;}
+a {text-decoration: none;}
+
+main {
+    min-height: 85vh;
+    padding-top: 15vh;
+    text-align: center;
+    background:  linear-gradient(45deg, rgb(41, 41, 41), rgb(22, 22, 22));
+    background-size: 200% 200%;
+    animation: bggradient 30s ease-in-out infinite;
+}
+
+@keyframes bggradient{
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 50% 50%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@media (max-width: 770px) {
+  main {
+    min-height: 80vh;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+  }
+}
