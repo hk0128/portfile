@@ -2,7 +2,7 @@ import './Top.css'
 import Header from '../component/Header'
 import git from '../assets/github-mark-white.png'
 import zenn from '../assets/logo-only.svg'
-import selfie from '../assets/unnamed2.jpg'
+import selfie from '../assets/k0898_1.jpg'
 
 function Home() {
 
