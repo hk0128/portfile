@@ -1,8 +1,7 @@
 import './Skill.css'
 import Header from '../component/Header'
-import Footer from '../component/Footer'
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import { Pie } from 'react-chartjs-2';
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
+import { Pie } from 'react-chartjs-2'
 
 
 ChartJS.register(ArcElement, Tooltip, Legend);
@@ -71,7 +70,6 @@ function Skill() {
             </div>
           </div>
         </main>
-        <Footer />
     </>
   )
 }

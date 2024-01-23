@@ -1,6 +1,5 @@
 import './Work.css'
 import Header from '../component/Header'
-import Footer from '../component/Footer'
 import Label from '../component/Label'
 
 function Work() {
@@ -45,7 +44,6 @@ function Work() {
             </div>
           </div>
         </main>
-        <Footer />
     </>
     )
   }
